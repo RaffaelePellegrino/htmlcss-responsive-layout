@@ -10,6 +10,9 @@ img{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 :root {
     --color-white: #ffffff;
     --color-bg-color: #d9d9d9;
@@ -35,6 +38,8 @@ header{
 header h1{
     padding: 10px 20px;
     text-shadow: 1px 1px 1px var(--color-black);
+    letter-spacing: 3px;
+    font-size: 48px;
 }
 
 /* main */
@@ -46,10 +51,12 @@ header h1{
 main h1{
     margin: 20px 0px;
     color:#4e3969;
+    font-size: 42px;
 }
 .inner-container{
     display: flex;
     width: 100%;
+    margin: 20px 0;
 }
 
 .container-inner-txt{
@@ -63,7 +70,7 @@ main h1{
 main h3{
     padding: 20px 30px;
 }
-main ul li{
+.ul-ricetta li{
     padding: 10px 30px;
 }
 
@@ -72,3 +79,62 @@ main ul li{
     text-transform: uppercase;
     word-spacing: 8px;
 }
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.social li{
+    background-color: var(--color-white);
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height: 30px;
+}
+.social a{
+    color: var(--color-black);
+    text-transform: uppercase;
+}
+
+main h2{
+    font-size: 34px;
+    color: var(--color-dark-text);
+    text-transform: uppercase;
+}
+
+.hr{
+    width: 100px;
+    height: 1px;
+    border: 2px solid var(--color-contrast);
+}
+
+.float{
+    height: auto;
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+    
+.box{
+    margin-top: 30px ;
+    align-items: center;
+    display: inline-block;
+}
+.d-wrap{
+    text-wrap: wrap;
+}
+
+.p{
+    line-height: 1.6;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
