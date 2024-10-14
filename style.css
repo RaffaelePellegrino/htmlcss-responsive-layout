@@ -82,7 +82,7 @@ main h3{
 
 .social{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     gap: 30px;
@@ -137,4 +137,48 @@ main h2{
     word-spacing: 3px;
     text-align: justify;
 }
-
+.w-100{
+    width: 100%;
+}
+@media screen and (max-width: 576px) {
+    header{
+        display: flex;
+        align-items: center;
+    }
+    .fantasma{
+        display: none;
+    }
+    .inner-container{
+        flex-direction: column;
+    }
+    .container-inner-img{
+        width: 100%;
+    }
+    .container-inner-txt{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .social{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social li{
+        width: 50px;
+    }
+    .last-section{
+        margin-top: 40px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .p{
+        padding: 20px;
+    }
+    .centratura{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
